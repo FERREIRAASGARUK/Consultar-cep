@@ -1,4 +1,4 @@
-#OBJETIVO
+# Objetivo do projeto
 Este projeto é simplemente um mecanismo de busca de endereços através do cep, nele o usuário coloca o CEP e envia para a api do via cep através do botão enviar, a api então reponde com um objeto que contém o endereço completo relacionado ao cep digitado.
 
 
