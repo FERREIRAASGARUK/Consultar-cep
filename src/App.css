@@ -1,71 +1,62 @@
 .App {
-	width: 100vmax;
-	height: 100vmax;
-	background-color: white;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding-left: 100px;
+  width: 100vmax;
+  height: 100vmax;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 100px;
 }
 .title {
-	color: black;
-	font-family: courier;
-	margin-top: 50px;
-	margin-left: 100px;
-	margin-bottom: 10px;
+  color: grey;
+  font-family: Arial;
+  margin-top: 50px;
+  margin-left: 900px;
+  margin-bottom: 10px;
 }
 .botao {
-	color: royalblue;
-	width: 100px;
-	height: 50px;
-	border-radius: 10px;
-	border: 1px
-		solid
-		blue;
+  color: royalblue;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid blue;
 }
 .formulario {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 100px;
 }
 .campo {
-	border: 1px
-		solid
-		black;
-	height: 30px;
-	border-radius: 5px;
-	margin-bottom: 33px;
+  border: 1px solid black;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  margin-bottom: 33px;
 }
 
 .logradouro {
-	margin-bottom: 33px;
+  margin-bottom: 33px;
 
-	border: 1px
-		solid
-		black;
-	height: 30px;
-	border-radius: 5px;
-	width: 500px;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 5px;
+  width: 500px;
 }
 .city {
-	margin-bottom: 33px;
+  margin-bottom: 33px;
 
-	border: 1px
-		solid
-		black;
-	height: 30px;
-	border-radius: 5px;
-	width: 500px;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 5px;
+  width: 500px;
 }
 
 .Bairro {
-	margin-bottom: 33px;
+  margin-bottom: 33px;
 
-	border: 1px
-		solid
-		black;
-	height: 30px;
-	border-radius: 5px;
-	width: 500px;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 5px;
+  width: 500px;
 }
