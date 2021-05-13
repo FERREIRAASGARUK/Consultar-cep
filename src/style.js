@@ -12,22 +12,21 @@ export const Resultado = styled.div`
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
-  background-color: blue;
+  background-color: #3f51b5;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex-direction: row;
+  border: solid 2px #3f51b5;
 `;
 
 export const Title = styled.div`
-  color: black;
+  color: white;
   font-weight: 800;
   font-family: Arial;
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 50px;
-  background-color: ligth-blue;
 `;
 export const Title2 = styled.div`
-  color: grey;
+  color: #575d6d;
   font-weight: 300;
   font-family: Arial;
   font-size: 20px;
@@ -36,12 +35,18 @@ export const Title2 = styled.div`
 
 export const Line1 = styled.div`
   display: flex;
-  justify-content: space-between;
   flex-directtion: row;
 `;
 export const Line2 = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-directtion: row;
   background-color: white;
+  height: 100%;
+  width: 100;
+`;
+
+export const Coluna = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: solid 2px #3f51b5;
+  height: 100px;
 `;

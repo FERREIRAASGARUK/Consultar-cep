@@ -2,7 +2,15 @@ import "./App.css";
 import { Formik, Field, Form, ErrorMessage } from "formik";
 import Button from "@material-ui/core/Button";
 import React, { useState, useEffect } from "react";
-import { Container, Resultado, Title, Title2, Line1, Line2 } from "./style";
+import {
+  Container,
+  Resultado,
+  Title,
+  Title2,
+  Line1,
+  Line2,
+  Coluna,
+} from "./style";
 
 // import * as Yup from 'yup';
 
@@ -113,24 +121,48 @@ function App() {
               </Form>
             </Formik>
             <Resultado>
-              <Line1>
-                <Title>CEP</Title>
-                <Title>BAIRRO</Title>
-                <Title>LOCALIDADE</Title>
-                <Title>LOGRADOURO</Title>
-                <Title>UF</Title>
-                <Title>DDD</Title>
-              </Line1>
-              <Line2>
-                <Title2 style={{ marginLeft: 20 }}>{campos.cep}</Title2>
-                <Title2>{campos.bairro}</Title2>
-                <Title2>{campos.localidade}</Title2>
-                <Title2>{campos.logradouro}</Title2>
-                <Title2 style={{ marginRight: 0 }} i>
-                  {campos.uf}
-                </Title2>
-                <Title2>{campos.ddd}</Title2>
-              </Line2>
+              <Coluna>
+                <Line1>
+                  <Title>CEP</Title>
+                </Line1>
+                <Line2>
+                  <Title2 style={{ marginLeft: 20 }}>{campos.cep}</Title2>
+                </Line2>
+              </Coluna>
+              <Coluna>
+                <Line1>
+                  <Title>Bairro</Title>
+                </Line1>
+                <Line2>
+                  <Title2 style={{ marginLeft: 20 }}>{campos.bairro}</Title2>
+                </Line2>
+              </Coluna>
+              <Coluna>
+                <Line1>
+                  <Title>DDD</Title>
+                </Line1>
+                <Line2>
+                  <Title2 style={{ marginLeft: 20 }}>{campos.ddd}</Title2>
+                </Line2>
+              </Coluna>
+              <Coluna>
+                <Line1>
+                  <Title>Logradouro</Title>
+                </Line1>
+                <Line2>
+                  <Title2 style={{ marginLeft: 20 }}>
+                    {campos.logradouro}
+                  </Title2>
+                </Line2>
+              </Coluna>
+              <Coluna>
+                <Line1>
+                  <Title>UF</Title>
+                </Line1>
+                <Line2>
+                  <Title2 style={{ marginLeft: 20 }}>{campos.uf}</Title2>
+                </Line2>
+              </Coluna>
             </Resultado>
           </div>
         )}

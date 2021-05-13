@@ -8,7 +8,7 @@
   padding-left: 100px;
 }
 .title {
-  color: grey;
+  color: #1b3a3e;
   font-family: Arial;
   margin-top: 50px;
   margin-left: 900px;
@@ -28,7 +28,7 @@
   padding-left: 100px;
 }
 .campo {
-  border: 1px solid black;
+  border: solid 2px #3351a4;
   height: 30px;
   width: 300px;
   border-radius: 5px;
