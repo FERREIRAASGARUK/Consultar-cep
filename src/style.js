@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 1920px;
-  height: 1080px;
   background-color: white;
   border-top: 1px solid black;
   padding-top: 100px;
+  height:1000px
 `;
 
 export const Resultado = styled.div`
   margin-top: 100px;
   margin-left: 100px;
-  margin-right: 100px;
+  margin-right: 200px;
+  margin-bottom:500px;
   background-color: #3f51b5;
   display: flex;
   flex-direction: row;
@@ -31,22 +31,27 @@ export const Title2 = styled.div`
   font-family: Arial;
   font-size: 20px;
   margin-right: 15px;
+
 `;
 
 export const Line1 = styled.div`
   display: flex;
   flex-directtion: row;
+  height:40px
+  width:200px
 `;
 export const Line2 = styled.div`
   background-color: white;
   height: 100%;
-  width: 100;
+  width: 100%;
+ 
 `;
 
 export const Coluna = styled.div`
   display: flex;
   flex-direction: column;
-  width: 500px;
+  width: 600px;
   border: solid 2px #3f51b5;
-  height: 100px;
+  height: 400px;
+  
 `;

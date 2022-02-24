@@ -11,8 +11,10 @@
   color: #1b3a3e;
   font-family: Arial;
   margin-top: 50px;
-  margin-left: 900px;
-  margin-bottom: 10px;
+  margin-left: 500px;
+  margin-bottom: 20px;
+  
+  
 }
 .botao {
   color: royalblue;
@@ -26,6 +28,7 @@
   flex-direction: column;
   align-items: flex-start;
   padding-left: 100px;
+  width: 800px;
 }
 .campo {
   border: solid 2px #3351a4;
